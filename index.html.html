@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <body style="background-color: rgb(193, 215, 215); margin-left: 580px; margin-top:40px ;border:2px solid black ;width: 320px">
+    <h1>Registration Form</h1>
+    <form action="/action.php">
+        <label for="name">Name:</label>
+        <input type="text"     placeholder="Enter your name" id="name" name="name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email"    placeholder="Enter your email" id="email" name="email" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter your password" id="password"  name="pass" required>
+        <br><br>
+        <label for="gen">Select Your Gender:</label>
+        <br>
+        
+        <input type="radio" value="Male" name="gen" id="male">Male
+        <br>
+    
+        <input type="radio" value="Female" name="gen" id="female">Female
+        
+        <br><br>
+        <Select>
+            <option value="" disabled selected>Select Department:</option>
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="EE">EE</option>
+            <option value="ME">ME</option>
+        </Select>
+        <br><br>
+        <input type="checkbox" id="terms" name="no">
+        <label for="terms">I agree to the <u>terms</u> and <u>conditions</u></label>
+        
+        <br><br>
+        <button type="submit">Register</button>
+            <p style="margin-left:80px">&copy; Amod Kumar</p>
+    </form>
+    
+    
+</body>
+</html>
